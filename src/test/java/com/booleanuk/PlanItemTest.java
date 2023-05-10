@@ -1,3 +1,5 @@
+package com.booleanuk;
+
 import com.booleanuk.PlanItem;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
@@ -16,7 +18,7 @@ public class PlanItemTest {
 
         newPlanItem.add("JAVASCRIPT CLASS", 30);
 
-        Assertions.assertEquals(3, newPlanItem.plan);
+        Assertions.assertEquals(3, newPlanItem.planItems.size());
 
 
     }
